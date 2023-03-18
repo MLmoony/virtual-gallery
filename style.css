@@ -1,0 +1,102 @@
+body {
+  background: #E6E6FA;/*url(fon.jpg); /* Фоновый цвет и фоновый рисунок*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+}
+header {
+	    background: #483D8B; /*url(akvarel.jpg); /*Фоновый цвет и фоновый рисунок*/
+		color: #FFFFFF; /*Цвет текста на странице*/
+		/*background-attachment: fixed; /* Фон страницы фиксируется */
+		background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+		width: 100%;
+}
+h1 {
+				color: white
+				font-size: 40px;
+				font-style: normal;
+			    text-align: center;
+} 
+/*--все параметр применяются на всех страницах, поменяли цвет заголовка, размер шрифта, курсив, отступ слева--*/
+.bigheading {
+                color: black;
+	            font-size: 40px;
+	            font-style: italic;
+	            text-align: center;/*<!--цвет текста -->*/	
+}	
+.myclass {
+	font-size: 30px;
+	text-align: center;
+}
+.myclassbig{
+	font-size: 40px;
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+.simple-text{
+	 font-size:15.0pt;
+}
+p {
+	 font-size:15.0pt;
+	 line-height: 1.5;
+}
+
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:15.0pt;
+	font-family:"Calibri",sans-serif;
+	}
+
+ A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+   } 
+   A:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: blueviolet ; /* цвет ссылки */
+   } 
+   A {
+    color: black; /* Цвет ссылок */
+   }
+   A:visited ; hover{
+    color: black; /* Цвет посещенных ссылок */
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: blueviolet ; /* цвет ссылки */
+   }
+   A:active {
+    color: black; /* Цвет активных ссылок */
+   }
+
+
+
+* {box-sizing: border-box; margin: 0;}
+
+.Layer1{
+
+
+}
+
+.moon{
+	font-size: 12px;
+	margin-top: 90px;
+}
+	
+.moo{
+	font-size: 12px;
+}
+	
+.glstr{
+	font-size: 20px;
+	color: white;
+}
+
+.hi{
+	color:white;
+
+}
